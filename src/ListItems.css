@@ -1,0 +1,35 @@
+.list {
+    color: #fff;
+    width: 350px;
+    background-color: #18BC9C;
+    min-height: 50px;
+    margin: 20px auto;
+    border-radius: 5px;  
+}
+
+.list p {
+    padding: 15px 10px;
+    text-align: left;
+    position: relative;
+}
+
+.list p span {
+    position: absolute;
+    right: 10px;
+}
+
+.faIcons {
+    margin: 0 5px;
+    font-size: 15px;
+}
+
+.list p input {
+    border: none;
+    background-color: #18BC9C;
+    color: #fff;
+    font-size: 18px;
+}
+
+.list p input:focus {
+    outline: none;
+}
