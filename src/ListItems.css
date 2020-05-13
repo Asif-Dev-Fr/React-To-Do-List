@@ -33,3 +33,10 @@
 .list p input:focus {
     outline: none;
 }
+
+/* Media Queries */
+@media screen and (max-width: 450px) {
+    .list {
+        width: 90%;
+    }
+  }

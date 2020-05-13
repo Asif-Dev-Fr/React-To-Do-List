@@ -11,7 +11,7 @@ library.add(faTrash);
 library.add(faEdit);
 
 
-// Tutorial https://www.youtube.com/watch?v=N8kYlimhuLw&t=https://www.youtube.com/watch?v=N8kYlimhuLw&t= 
+// Tutorial https://www.youtube.com/watch?v=N8kYlimhuLw&t
 
 class App extends Component {
 
@@ -88,8 +88,9 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>React Project</h1>
+        <h1>Projet React</h1>
         <h2> To do list </h2>
+        <h3>Ajouter, modifier et supprimer des éléments</h3>
         <header>
           <form id="to-do-form" onSubmit={this.addItem}>
             <input type="text" placeholder="Entrez votre liste" value={this.state.currentItems.text} onChange={this.handleInput} />
