@@ -40,3 +40,9 @@
         width: 90%;
     }
   }
+
+@media screen and (max-width: 320px) {
+    .list p span {
+        top: 20px;
+    }
+}

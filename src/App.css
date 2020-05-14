@@ -51,9 +51,11 @@ header {
   width: 80px;
   border-radius: 5px;
   border: 0;
-  background-color: #f7440e;
+  background-color: #074bb1;
   cursor: pointer;
   font-weight: border;
+  font-weight: bold;
+  color: #fff;
 }
 
 /* Media Queries */
